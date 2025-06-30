@@ -1,0 +1,76 @@
+.navbar{
+    width: 100%;
+    height: 6rem;
+    background-color: #060318;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+    position: sticky;
+    top: 0;
+}
+
+.logo h1{
+    font-size: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.logo h1 span{
+    color: white;
+    cursor: pointer;
+    margin-left: 2px;
+    font-size: 1.8rem;
+    /* linear gradint cross for blue */
+    background : linear-gradient(to right, #3a7bd5, #00d2ff);
+    letter-spacing: 0.05rem;
+    padding: 0px 3px;
+}
+
+.links{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    cursor: pointer;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.links a:hover{
+    color: #3a7bd5;
+}
+
+.buttons{
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.buttons div{
+    border: 1px solid #3a7bd5;
+    padding: 15px 25px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.buttons div:hover{
+    background-color: #3a7bd5;
+}
+
+.search{
+    cursor: pointer;
+}
+
+.register{
+    cursor: pointer;
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+
+}
+
