@@ -1,0 +1,36 @@
+.section2 {
+  height: 6rem;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  background: linear-gradient(to right, #4F46D6, #3a7bd5);
+  position: relative;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  animation: scroll 5s linear infinite alternate;
+  animation-play-state: running;
+}
+
+.item {
+  height: 100%;
+  width: 20%; /* Fixed width for smoother loop */
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-40%);
+  }
+}
