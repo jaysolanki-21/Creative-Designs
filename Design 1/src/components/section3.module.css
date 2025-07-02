@@ -1,0 +1,126 @@
+.section3 {
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    background-color: #060318;
+}
+
+.h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
+
+.wrapper {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.image1,
+.image2,
+.image3,
+.image4,
+.image5 {
+    width: 15rem;
+    height: 22rem;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.image1:hover,
+.image2:hover,
+.image3:hover,
+.image4:hover,
+.image5:hover {
+  cursor: pointer;
+  transform: scale(1.1) translateY(-20px); /* scale + slide up */
+  transition: all 0.3s ease-in-out;
+}
+
+.image1 {
+    background-image: url("/images/images_31.jpg");   
+     background-size: cover;
+    background-position: center;
+}
+
+.image2 {
+    background-image: url("/images/images_32.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.image3 {
+    background-image: url("/images/images_33.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.image4 {
+    background-image: url("/images/images_34.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.image5 {
+    background-image: url("/images/images_35.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.bottomdetail{
+    background-color: rgba(40, 21, 148, 0.5960784314);
+    position: absolute;
+    bottom: 0;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    z-index: 1;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: white;
+}
+
+.lefth3 {
+    font-size: 105%;
+    line-height: 1;
+    font-weight: 500;
+}
+
+.right {
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+
+.rightbutton {
+    border: 1.5px solid #00859c;
+    margin-bottom: 10px;
+    padding: 5% 10%;
+    width: 150%;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.righth3{
+    font-size: 105%;
+    line-height: 1;
+    font-weight: 500;
+}
