@@ -22,7 +22,6 @@
     cursor: pointer;
     margin-left: 2px;
     font-size: 1.8rem;
-    /* linear gradint cross for blue */
     background : linear-gradient(to right, #3a7bd5, #00d2ff);
     letter-spacing: 0.05rem;
     padding: 0px 3px;
