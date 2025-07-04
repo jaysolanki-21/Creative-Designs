@@ -1,0 +1,90 @@
+.section5{
+    width: 100%;
+    background-color: #060318;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 100px;
+}
+
+.h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.artworksupper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+    gap: 3rem;
+}
+
+.artwork{
+    width: 20rem;
+    height: 14rem;
+    border-radius: 1.5rem;
+    padding: 12px;
+    background: linear-gradient(to right, #0b0282, #1063d7);
+}
+
+.artworkslower{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 80%;
+    width: 100%;
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.imageupper{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    border: 1rem;
+    gap: 5px;
+    overflow: hidden;
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.imagelower{
+    height: 50%;
+    overflow: hidden;
+}
+
+.img1,.img2,.img3{
+    border: 1px solid salmon;
+    overflow: hidden;
+    border: inherit;
+    object-fit: cover;
+}
+
+.img4{
+    width: 100%;
+    overflow: hidden;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    height: 22%;
+    padding: 0 1rem;
+}
+
+.item{
+    border: 1px solid skyblue;
+    border-radius: 1.5rem;
+    padding: 0.2rem 0.5rem;
+}
