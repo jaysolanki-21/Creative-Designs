@@ -31,7 +31,16 @@ const Main = () => {
           </div>
         </div>
       </div>
-     
+      <div className={style.section2}>
+        <h5>In 2050, material wealth will not be</h5>
+        <h6>
+          impressive. Your VO2Max, <img src="images/nearSpeed1.webp" alt="" />{" "}
+          speed of aging <br />
+          HRV <img src="images/hrv2.webp" alt="" /> and body fat percentage{" "}
+          <img src="images/will3.webp" alt="" /> will be.
+        </h6>
+      </div>
+      
     </div>
   );
 };
