@@ -40,6 +40,52 @@ const Main = () => {
           <img src="images/will3.webp" alt="" /> will be.
         </h6>
       </div>
+      <div className={style.section3}>
+        <h4>Applications</h4>
+        <h1>Start shaping your tomorrow</h1>
+        <div className={style.box}>
+          <div className={style.card}>
+            <div className={style.img}>
+              <img src="images/cardimg1.webp" alt="" />
+            </div>
+            <span>Stay your best self, always</span>
+            <div className={style.capsule}>
+              <img src="images/image (2).svg" alt="" />
+              <span className={style.capsulespan}>Wellbeing</span>
+            </div>
+          </div>
+          <div className={style.card}>
+            <div className={style.img}>
+              <img src="images/cardimg2.webp" alt="" />
+            </div>
+            <span>
+              Optimize your fertility, cycle <br />
+              and menopause naturally
+            </span>
+            <div className={style.capsule}>
+              <img src="images/image (3).svg" alt="" />
+              <span className={style.capsulespan}>Women's health</span>
+            </div>
+          </div>
+          <div className={style.card}>
+            <div className={style.img}>
+              <img src="images/cardimg3.webp" alt="" />
+            </div>
+            <span>
+              Fuel your cells <br />
+              for a supercharged life
+            </span>
+            <div className={style.capsule}>
+              <img src="images/image (4).svg" alt="" />
+              <span className={style.capsulespan}>Longevity</span>
+            </div>
+          </div>
+        </div>
+        <div className={style.button}>
+          All Products
+          <i class="ri-arrow-right-line"></i>
+        </div>
+      </div>
       
     </div>
   );
