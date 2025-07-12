@@ -86,7 +86,27 @@ const Main = () => {
           <i class="ri-arrow-right-line"></i>
         </div>
       </div>
-      
+      <div className={style.section4}>
+        <div className={style.image}>
+          <div className={style.text}>
+            <h1 className={style.texth1}>
+              <span>Meet Kini, </span>
+              the first wearable using <br />
+              non-invasive light technology <br />
+              to support and improve female longevity
+            </h1>
+          </div>
+          <img src="images/watchimage.webp" alt="" />
+          <div className={style.tagbar}>
+            <span>Get to know Kini now!</span>
+            <div className={style.pricebutton}>
+              <span> €149,00 </span>
+              <div className={style.buynow}>Buy now</div>
+            </div>
+          </div>
+        </div>
+      </div>
+     
     </div>
   );
 };
