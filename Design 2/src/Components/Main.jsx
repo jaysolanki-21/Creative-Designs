@@ -106,7 +106,208 @@ const Main = () => {
           </div>
         </div>
       </div>
-     
+     <div className={style.section5}>
+        <span>Benefits</span>
+        <h1>Feel the difference in every aspect</h1>
+        <div className={style.data}>
+          <div className={style.datastick}>
+            <div className={style.rightimage}>
+              <img src="images/testingUser1.webp" alt="" />
+            </div>
+            <div className={style.leftdata}>
+             
+              <div className={style.leftupper}>
+                <h1 className={style.heading}>Optimized female health</h1>
+                <h6 className={style.subheading}>Red light therapy can effectively support your fertility in the long-term.</h6>
+              </div>
+
+             
+              <div className={style.leftlower}>
+                <span className={style.lowerSpan}>By increasing blood flow, supporting tissue regeneration and balancing hormones, CellLight™ supports your uterus and ovaries naturally.</span>
+
+                <div className={style.taglines}>
+                 
+                  <div className={style.tagline}>
+                    <span className={style.taglineHeading}>Promotes</span>
+                    <span className={style.taglineText}>
+                      healthy tissue
+                    </span>
+                  </div>
+
+                 
+                  <div className={style.tagline}>
+                    <span className={style.taglineHeading}>Balances</span>
+                    <span className={style.taglineText}>
+                      Your hormones
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={style.datastick}>
+            <div className={style.rightimage}>
+              <img src="images/testingUser2.webp" alt="" />
+
+            </div>
+            <div className={style.leftdata}>
+             
+              <div className={style.leftupper}>
+                <h1 className={style.heading}>Enhanced deep sleep</h1>
+                <h6 className={style.subheading}>Near-infrared light enhances mitochondrial function in neurons, helping improve deep sleep.</h6>
+              </div>
+
+             
+              <div className={style.leftlower}>
+                <span className={style.lowerSpan}>CellLight™ will not disturb your natural sleep-wake-cycle and melatonin production.</span>
+
+                <div className={style.taglines}>
+                 
+                  <div className={style.tagline}>
+                    <span className={style.taglineHeading}>Longer deep sleep</span>
+                    <span className={style.taglineText}>
+                      
+                    </span>
+                  </div>
+
+                 
+                  <div className={style.tagline}>
+                    <span className={style.taglineHeading}>Enhanced neuronal</span>
+                    <span className={style.taglineText}>
+                      function
+                    </span>
+                  </div>
+                  <div className={style.tagline}>
+                    <span className={style.taglineHeading}>Balances sleep</span>
+                    <span className={style.taglineText}>
+                      hormone secretion
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={style.datastick}>
+            <div className={style.rightimage}>
+              <img src="images/testingUser3.webp" alt="" />
+
+            </div>
+            <div className={style.leftdata}>
+             
+              <div className={style.leftupper}>
+                <h1 className={style.heading}>Youthful skin</h1>
+                <h6 className={style.subheading}>CellLight™ accelerates cellular repair and stem cell proliferation, leading to higher natural collagen and elastin production.</h6>
+              </div>
+
+             
+              <div className={style.leftlower}>
+                <span className={style.lowerSpan}>This results in youthful, glowing and clear skin, allowing you to look as young as you feel in your heart.</span>
+
+                <div className={style.taglines}>
+                 
+                  <div className={style.tagline}>
+                    <span className={style.taglineHeading}>Accelerated cellular</span>
+                    <span className={style.taglineText}>
+                     repair
+                    </span>
+                  </div>
+
+                 
+                  <div className={style.tagline}>
+                    <span className={style.taglineHeading}>Non-invasively</span>
+                    <span className={style.taglineText}>
+                      stimulated skin cell proliferation
+                    </span>
+                  </div>
+                  <div className={style.tagline}>
+                    <span className={style.taglineHeading}>More natural collagen</span>
+                    <span className={style.taglineText}>
+                      sand elastin
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={style.datastick}>
+            <div className={style.rightimage}>
+              <img src="images/testingUser4.webp" alt="" />
+            </div>
+            <div className={style.leftdata}>
+             
+              <div className={style.leftupper}>
+                <h1 className={style.heading}>Extended longevity</h1>
+                <h6 className={style.subheading}>CellLight™ helps mitochondria produce more energy (ATP), supporting long-term health and protecting against chronic conditions.</h6>
+              </div>
+
+             
+              <div className={style.leftlower}>
+                <span className={style.lowerSpan}>Increasing cellular energy not only adds years to your life (lifespan) but also ensures those years are lived in good health (healthspan).</span>
+
+                <div className={style.taglines}>
+                 
+                  <div className={style.tagline}>
+                    <span className={style.taglineHeading}>Improved cellular</span>
+                    <span className={style.taglineText}>
+energy production
+                    </span>
+                  </div>
+
+                 
+                  <div className={style.tagline}>
+                    <span className={style.taglineHeading}>Better functioning</span>
+                    <span className={style.taglineText}>
+                      mitochondria
+                    </span>
+                  </div>
+                  <div className={style.tagline}>
+                    <span className={style.taglineHeading}>Reduced aging velocity</span>
+                    <span className={style.taglineText}>
+                     
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={style.datastick}>
+            <div className={style.rightimage}>
+              <img src="images/testingUser5.webp" alt="" />
+            </div>
+            <div className={style.leftdata}>
+             
+              <div className={style.leftupper}>
+                <h1 className={style.heading}>Boosted mental & physical resilience</h1>
+                <h6 className={style.subheading}>Studies show consistent use of CellLight™ improves heart rate variability (HRV) over time and reduces oxidative stress.</h6>
+              </div>
+
+             
+              <div className={style.leftlower}>
+                <span className={style.lowerSpan}>Higher HRV scores reflect greater mental and physical resilience . Lowering oxidative stress helps prevent conditions like atherosclerosis, hypertension, Alzheimer’s disease, diabetes, infertility, chronic fatigue syndrome, and slows the aging process</span>
+
+                <div className={style.taglines}>
+                 
+                  <div className={style.tagline}>
+                    <span className={style.taglineHeading}>Reduced oxidative stress</span>
+                    <span className={style.taglineText}>
+                     
+                    </span>
+                  </div>
+
+                 
+                  <div className={style.tagline}>
+                    <span className={style.taglineHeading}>Higher HRV</span>
+                    <span className={style.taglineText}>
+                     
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
     </div>
   );
 };
