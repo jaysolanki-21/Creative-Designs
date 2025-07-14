@@ -307,7 +307,13 @@ energy production
           </div>
         </div>
       </div>
-      
+      <div className={style.section6}>
+        <div className={style.section6image}>
+          <h1>Learn how CellLight powers your health. Innovative,<span> science-backed technology created to fuel cellular energy and longevity.</span></h1>
+          <div className={style.button}>Explore <i className={"ri-arrow-right-line"}></i></div>
+        </div>
+      </div>
+     
     </div>
   );
 };
