@@ -521,3 +521,117 @@
     gap: 1rem;
 }
 
+/* footer */
+
+.footerSection {
+  background-color: #fefaf4;
+  padding: 5vh 5vw;
+}
+
+.footerBox {
+  background: #000;
+  color: #fff;
+  padding: 4rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.footerTop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.footerLeft {
+  flex: 1;
+  min-width: 60%;
+}
+
+.logo {
+  height: 40px;
+  margin-bottom: 1.5rem;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.socialIcons button {
+  background: #1a1a1a;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  font-size: 1.5rem;
+  color: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.stats i {
+  margin-right: 0.5rem;
+}
+
+.footerMiddle ul,
+.footerRight ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  transition: all 2s ease;
+}
+
+.footerMiddle ul li,.footerRight ul li{
+    opacity: 0.7;
+}
+
+.footerMiddle ul li:hover,.footerRight ul li:hover{
+    opacity: 1;
+}
+
+.footerMiddle {
+  flex: 1;
+  min-width: 150px;
+}
+
+.footerRight {
+  flex: 1;
+  min-width: 150px;
+}
+
+.footerNote {
+  font-size: 0.85rem;
+  color: #aaa;
+  line-height: 1.5;
+  width: 70%;
+  margin-top: 2rem;
+}
+
+.paymentIcons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.paymentIcons img {
+  height: 18px;
+  object-fit: cover;
+}

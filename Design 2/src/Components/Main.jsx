@@ -313,7 +313,67 @@ energy production
           <div className={style.button}>Explore <i className={"ri-arrow-right-line"}></i></div>
         </div>
       </div>
-     
+      <div className={style.footerSection}>
+      <div className={style.footerBox}>
+        <div className={style.footerTop}>
+          <div className={style.footerLeft}>
+            <img src="/logo.png" alt="luminous labs" className={style.logo} />
+
+            <div className={style.socialIcons}>
+              <button><i className="fa-brands fa-instagram"></i></button>
+              <button><i className="fa-brands fa-linkedin-in"></i></button>
+              <button><i className="fa-brands fa-facebook-f"></i></button>
+              <button><i className="fa-brands fa-youtube"></i></button>
+            </div>
+
+            <div className={style.stats}>
+              <p><i className="fa-solid fa-user"></i> Combined across all platforms: 11k followers</p>
+              <p><i className="fa-regular fa-bell"></i> Daily: 50 requests/DMs</p>
+              <p><i className="fa-solid fa-chart-line"></i> Growth: 2% organic growth monthly</p>
+            </div>
+          </div>
+
+          <div className={style.footerMiddle}>
+            <ul>
+              <li>Technology</li>
+              <li>Company</li>
+              <li>Shop</li>
+              <li>Commercial</li>
+              <li>Blog</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+
+          <div className={style.footerRight}>
+            <ul>
+              <li>Shipping & Delivery</li>
+              <li>Privacy Policy</li>
+              <li>Revocation</li>
+              <li>Terms & Conditions</li>
+              <li>Imprint</li>
+              <li>Press kit</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className={style.footerNote}>
+          These statements have not been evaluated by the Food and Drug Administration. In the European Union, the intended use of our products does not fall within the scope of article 2 section 1 of 2017/45 MDR. Our products are not intended to diagnose, treat, cure, or prevent any disease.
+        </div>
+
+        <div className={style.paymentIcons}>
+          <img src="/images/image (16).svg" alt="PayPal" />
+          <img src="/images/image (17).svg" alt="Mastercard" />
+          <img src="/images/image (18).svg" alt="Mastercard" />
+          <img src="/images/image (19).svg" alt="VISA" />
+          <img src="/images/image (20).svg" alt="American Express" />
+          <img src="/images/image (21).svg" alt="Klarna" />
+          <img src="/images/image (22).svg" alt="JCB" />
+          <img src="/images/image (23).svg" alt="Venmo" />
+          <img src="/images/image (24).svg" alt="Apple Pay" />
+          <img src="/images/image (25).svg" alt="Google Pay" />
+        </div>
+      </div>
+    </div>
     </div>
   );
 };
